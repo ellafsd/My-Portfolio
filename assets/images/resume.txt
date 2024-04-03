@@ -1,0 +1,42 @@
+                ELLA GIRIN
+                Full Stack Developer
+                ellagirin82@gmail.com
+                US Citizen
+         
+  
+SUMMARY  
+
+As a beginner full-stack developer with a background in computer engineering, I have a strong grasp of essential web technologies including HTML, CSS, JavaScript, and React. This foundation enables me to build interactive and user-centric web applications, blending frontend design with backend functionality. My engineering background further strengthens my problem-solving skills, equipping me to navigate and excel in the dynamic field of web development.
+ 
+
+SKILLS: 
+HTML, CSS, JavaScript, React
+
+ 
+                                                                       
+INTERNSHIPS
+Avea  	-    Software Developer Intern
+• Completed my internship at one of the biggest wireless companies as a software developer
+• Collaborated maintain the framework by using C# 
+• Performed back-end testing on Oracle database by writing SQL queries
+• Actively participated in Agile Meetings
+
+
+Avea  	-   Software Developer Intern
+• Collaborated with the team to maintain the framework using Python 
+• Performed back-end testing on Oracle database by writing SQL queries
+• Contributed to code reviews, software documentation, and debugging sessions.
+
+
+Bilge Adam 	- 	Software Developer Intern
+• Completed one of my internships at a Technology Consulting and Service Providing company for innovative software development and professional IT consulting.
+• Collaborated to develop the C++ application
+• Developed SQL queries to retrieve data from database using Oracle
+
+
+Education 
+Master of Science: Information Systems Management with Project Management concentration
+Keller Graduate School of Management Information Systems Management 
+ 
+Bachelor of Science: Computer Engineering 
+University of Bahcesehir 

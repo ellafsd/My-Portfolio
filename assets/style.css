@@ -1,5 +1,18 @@
+/* Media query for screens smaller than 2500px */
+@media only screen and (max-width: 2500px) {
+
+
+  :root {
+    --primary-color: #E0E0E0 ; /* light gray for general background */
+    --header-bg-color: lightblue; /* Background color for the title box */
+    --font-family: Arial, sans-serif; /* Primary font family */
+    --font-size: 20px; /* Primary font size */
+  }
+
 body{
-    font-family: Arial, sans-serif;
+    font-family: var(--font-family);
+    font-size: var(--font-size); 
+    background-color: var(--primary-color); /* This applies the background color to the entire page */
 }
 
 ul, li, a, html{
@@ -11,12 +24,17 @@ ul, li, a, html{
 
 a{
     text-decoration: none;
-    color: lightblue;
+    color: darkblue;
 }
 
 .header{
   background-color: #333;
   width: 100%;
+}
+
+nav {
+    width: 100%;
+
 }
 
 nav ul{
@@ -41,6 +59,10 @@ nav ul li a {
     text-decoration: underline;
 } 
 
+nav ul li a:hover{ 
+    color: #ddd;     /* Lighter color on hover */ 
+    text-decoration: underline; 
+} 
 
 .header-img{
     width: 100%;
@@ -51,19 +73,149 @@ nav ul li a {
     padding: 10px 0; 
 } 
 .header h1 { 
-    color: black; /* Black color for the Lernantino */ 
+    color: black;   /* Black color for the name */ 
     margin: 0; 
-    font-size: 2.5em; /* Larger font size for the title */ 
+    font-size: 2.5em; 
 } 
 
-
-nav ul li a:hover{ 
-    color: #ddd; /* Lighter color on hover */ 
-    text-decoration: underline; 
-} 
 
 .title-box { 
-    background-color: lightblue; /* Blue background for the title box */ 
+  background-color: var(--header-bg-color); 
     padding: 20px 20px; 
     width: 20%;
 } 
+
+
+.container {
+    width: 80%; /* Or any width you prefer */
+    max-width: 1200px; /* Or any max-width you prefer */
+    margin-bottom: 40px; /* Spacing between sections */
+    text-align: center; /* If you want text to be centered within each section */
+}
+  
+  
+/* Align all sections in a column */
+.container-wrapper {
+   padding-left: 30;
+}
+  .about {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;     /* Aligns items vertically in the center */
+  }
+  
+  .about h2 {
+    margin-right: 50px;     /* Adjust space between 'About Me' and the line */
+  }
+  
+  .about .vertical-line {
+    height: 100px; 
+    width: 1px;
+    background-color: #000;     /* Adjust line color as needed */
+    margin: 5 20px;    /* Adjust space between the line and the paragraph */
+    }
+  
+  .about p {
+  
+    color: #333;    
+      
+  }
+  
+  
+  .work {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  .work h2 {  
+    margin-right: 50px;     /* Adjusts space between 'About Me' and the line */
+  }
+  .work .vertical-line {
+    height: 100px; 
+    width: 1px;
+    background-color: #000; 
+    margin: 0 20px;  
+  }
+
+
+ 
+  .github-projects li{
+    margin-left: 0; /* Set the left margin to 0 */
+  }
+
+
+  .contact {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;    /* Aligns items vertically in the center */
+    flex-direction: row;    /* Align children horizontally */
+  }
+  .contact h2 {
+    margin-right: 20px;
+    align-self: flex-start;     /* Aligns title to the start of the container */ 
+  }
+  .contact .vertical-line {
+    height: 100px; 
+    width: 1px;
+    background-color: #000; 
+    margin: 0 20px; 
+  }
+
+  .contact-info > div {   /*direct children of an element with the class 'contact'*/
+    display: flex;
+    align-items: center;    /* Align items vertically in the center */
+    margin-bottom: 10px;    /* Space between contact info items */
+  }
+
+  .contact-info h3, .contact-info p {
+    display: inline-block;
+    margin: 0;
+  }
+  .contact-info h3 {
+    margin-right: 10px; /* Space between the 'Email:' and the actual email */
+  }
+  
+
+
+  /* Ensure the parent container has no padding or margin on the left */
+.parent-container {
+  padding-left: 0;
+  margin-left: 0;
+}
+  #resume {
+    padding-top: 100px;
+    display: flex;      /*.resume element will be a flex container*/
+    align-items: center;    /*items,Resume and Download my resume, will be centered to each other */
+    justify-content: flex-start; /* Aligns items to the start */
+    margin-left: 0;     /* Adjust if there is any margin pushing it to the right */
+  }
+
+  #resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    background-color: #007bff; 
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#resume a:hover {
+    background-color: #0056b3; /* A darker blue for the hover state */
+}
+
+#resume h2 {
+    margin-left: 0px;     /* Adds space between the 'Resume' text and the vertical line */
+    margin-right: 10px;
+}
+
+#resume .vertical-line{
+  height: 100px; 
+  width: 1px;
+  background-color: #000; 
+  margin: 0 20px; 
+}
+
+
+}
