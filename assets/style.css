@@ -3,16 +3,16 @@
 
 
   :root {
-    --primary-color: #E0E0E0 ; /* light gray for general background */
-    --header-bg-color: lightblue; /* Background color for the title box */
-    --font-family: Arial, sans-serif; /* Primary font family */
-    --font-size: 20px; /* Primary font size */
+    --primary-color: #E0E0E0 ;  /* light gray for general background */
+    --header-bg-color: lightblue;   /* Background color for the title box */
+    --font-family: Arial, sans-serif;  /* Primary font family */
+    --font-size: 20px;  /* Primary font size */
   }
 
 body{
     font-family: var(--font-family);
     font-size: var(--font-size); 
-    background-color: var(--primary-color); /* This applies the background color to the entire page */
+    background-color: var(--primary-color);   /* This applies the background color to the entire page */
 }
 
 ul, li, a, html{
@@ -30,30 +30,27 @@ a{
 .header{
   background-color: #333;
   width: 100%;
+  
 }
 
 nav {
     width: 100%;
-
 }
 
 nav ul{
     display: flex;
     justify-content: right;
-    
     padding: 10px 0;
 }
 
 nav ul li { 
     margin-top: -40px; 
     color: black;
-   
 } 
 
 nav ul li a { 
     color: lightblue; 
     padding: 5px 10px; 
-    text-transform: uppercase; 
     font-weight: bold; 
     transition: color 0.3s ease; 
     text-decoration: underline;
@@ -81,16 +78,16 @@ nav ul li a:hover{
 
 .title-box { 
   background-color: var(--header-bg-color); 
-    padding: 20px 20px; 
-    width: 20%;
+  padding: 20px 20px; 
+  width: 20%;
 } 
 
 
 .container {
-    width: 80%; /* Or any width you prefer */
-    max-width: 1200px; /* Or any max-width you prefer */
-    margin-bottom: 40px; /* Spacing between sections */
-    text-align: center; /* If you want text to be centered within each section */
+    width: 80%;  
+    max-width: 1200px; 
+    margin-bottom: 40px;  /* Spacing between sections */
+    text-align: center;   /* Text to be centered within each section */
 }
   
   
@@ -140,7 +137,7 @@ nav ul li a:hover{
 
  
   .github-projects li{
-    margin-left: 0; /* Set the left margin to 0 */
+    margin-left: 0;   /* Set the left margin to 0 */
   }
 
 
@@ -172,7 +169,7 @@ nav ul li a:hover{
     margin: 0;
   }
   .contact-info h3 {
-    margin-right: 10px; /* Space between the 'Email:' and the actual email */
+    margin-right: 10px;   /* Space between the 'Email:' and the actual email */
   }
   
 
@@ -185,7 +182,7 @@ nav ul li a:hover{
   #resume {
     padding-top: 100px;
     display: flex;      /*.resume element will be a flex container*/
-    align-items: center;    /*items,Resume and Download my resume, will be centered to each other */
+    align-items: center;    /*items, Resume and Download my resume, will be centered to each other */
     justify-content: flex-start; /* Aligns items to the start */
     margin-left: 0;     /* Adjust if there is any margin pushing it to the right */
   }
@@ -202,7 +199,7 @@ nav ul li a:hover{
 }
 
 #resume a:hover {
-    background-color: #0056b3; /* A darker blue for the hover state */
+    background-color: #0056b3;  /* A darker blue for the hover state */
 }
 
 #resume h2 {
@@ -217,5 +214,10 @@ nav ul li a:hover{
   margin: 0 20px; 
 }
 
+
+footer{
+  text-align: center;
+  margin-top: 80px;
+}
 
 }
